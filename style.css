@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-container {
+  background-color: #f3f3f3;
+}
+
+.wrapper-container .container-desc {
+  background-color: #005FB8;
+}
+
+.wrapper-container .container-desc .desc-content {
+  padding: 24px 72px;
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-container .container-desc .desc-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper-container .container-desc .desc-content ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.wrapper-container .container-desc .desc-content ul li.logo {
+  width: 100%;
+}
+
+.wrapper-container .container-desc .desc-content ul li.logo a {
+  font-weight: 600;
+}
+
+.wrapper-container .container-card {
+  margin: 8px 72px;
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.wrapper-container .container-card .card-desc {
+  float: left;
+  width: 23%;
+  height: 396px;
+  background-color: #f9f9f9;
+  -webkit-filter: drop-shadow(0px 0px 8px #00000029);
+          filter: drop-shadow(0px 0px 8px #00000029);
+  margin: 1%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-container .container-card .card-desc img {
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.wrapper-container .container-card .card-desc .desc-border {
+  padding: 16px 24px;
+  background-color: #f9f9f9;
+}
+
+.wrapper-container .container-card .card-desc .desc-border h3 {
+  font-weight: 500;
+  color: #555555;
+}
+
+.wrapper-container .container-card .card-desc .desc-border h1 {
+  font-weight: 600;
+  color: #272727;
+}
+
+.wrapper-container .container-card .card-desc .desc-border p {
+  font-weight: 500;
+  color: #005FB8;
+}
+
+.wrapper-container .container-functions {
+  background-color: #ffffff;
+}
+
+.wrapper-container .container-functions .functions-desc {
+  padding: 48px 72px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.wrapper-container .container-functions .functions-desc h1 {
+  font-weight: 600;
+  color: #272727;
+  line-height: 40px;
+}
+
+.wrapper-container .container-functions .functions-desc form {
+  display: -ms-grid;
+  display: grid;
+  width: 60%;
+}
+
+.wrapper-container .container-functions .functions-desc form input {
+  margin: 8px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 24px;
+  border: 0;
+  background-color: #f3f3f3;
+  width: 100%;
+}
+
+.wrapper-container .container-functions .functions-desc form input:focus {
+  outline: 0;
+}
+
+.wrapper-container .container-functions .functions-desc form input[type=submit] {
+  background-color: #005FB8;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.wrapper-container .container-functions .functions-desc form input[type=submit]:hover {
+  background-color: #003A71;
+}
+
+.wrapper-container .container-card-show .card-show-desc {
+  padding: 24px 72px;
+  margin: 0 auto;
+  max-width: 1440px;
+  overflow-x: auto;
+}
+
+.wrapper-container .container-card-show .card-show-desc h1 {
+  font-weight: 600;
+  color: #272727;
+  line-height: 40px;
+}
+
+.wrapper-container .container-card-show .card-show-desc table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-container .container-card-show .card-show-desc table th, .wrapper-container .container-card-show .card-show-desc table td {
+  border: 1px solid #005FB8;
+  font-size: 18px;
+  padding: 8px 16px;
+}
+
+.wrapper-container .container-card-show .card-show-desc table th {
+  color: #ffffff;
+  background-color: #005FB8;
+  font-weight: 500;
+}
+
+.wrapper-container .container-card-show .card-show-desc table td {
+  background-color: #f9f9f9;
+  font-weight: 500;
+  color: #272727;
+}
+
+.wrapper-container .container-card-show .card-show-desc table td img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+}
+
+.wrapper-container .container-card-show .card-show-desc table td button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.wrapper-container .container-card-show .card-show-desc table td button:focus {
+  outline: 0;
+}
+
+.wrapper-container .container-card-show .card-show-desc table td button.update {
+  background-color: #16b900;
+}
+
+.wrapper-container .container-card-show .card-show-desc table td button.update:hover {
+  background-color: #129700;
+}
+
+.wrapper-container .container-card-show .card-show-desc table td button.delete {
+  background-color: #ec2f00;
+}
+
+.wrapper-container .container-card-show .card-show-desc table td button.delete:hover {
+  background-color: #c22700;
+}
+
+.wrapper-container .container-card-show .card-show-desc table td input {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border: 0;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  text-align: center;
+  background: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper-container .container-desc .desc-content {
+    padding: 24px 48px;
+  }
+  .wrapper-container .container-card {
+    margin: 8px 48px;
+  }
+  .wrapper-container .container-card .card-desc {
+    width: 31.3%;
+  }
+  .wrapper-container .container-functions .functions-desc {
+    padding: 48px 48px;
+  }
+  .wrapper-container .container-card-show .card-show-desc {
+    padding: 24px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper-container .container-desc .desc-content {
+    padding: 24px 24px;
+  }
+  .wrapper-container .container-card {
+    margin: 8px 24px;
+  }
+  .wrapper-container .container-card .card-desc {
+    width: 48%;
+  }
+  .wrapper-container .container-functions .functions-desc {
+    padding: 48px 24px;
+  }
+  .wrapper-container .container-functions .functions-desc form {
+    width: 100%;
+  }
+  .wrapper-container .container-card-show .card-show-desc {
+    padding: 24px 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper-container .container-card .card-desc {
+    width: 99%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
